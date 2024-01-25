@@ -15,11 +15,11 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       themeMode: ThemeMode.dark,
       darkTheme: Theme.of(context).copyWith(
-          platform: TargetPlatform.android,
-          scaffoldBackgroundColor: kBackgroundColor,
-          primaryColor: kPrimaryColor,
-          canvasColor: kBackgroundColor,
-          //textTheme: GoogleFonts),
+        platform: TargetPlatform.android,
+        scaffoldBackgroundColor: kBackgroundColor,
+        primaryColor: kPrimaryColor,
+        canvasColor: kBackgroundColor,
+      ),
     );
   }
 }
